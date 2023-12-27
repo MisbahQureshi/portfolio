@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Misbah Qureshi - Portfolio</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button onclick="goUp()" id="myBtn" title="Go up">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+    <!--navigation-->
+    <div class="navigation">
+      <ul>
+        <li class="list active">
+          <a href="#home">
+            <span class="icon"
+              ><i class="fa fa-home" aria-hidden="true"></i
+            ></span>
+            <span class="title">Home</span>
+          </a>
+        </li>
+
+        <li class="list">
+          <a href="#about">
+            <span class="icon"
+              ><i class="fa fa-user" aria-hidden="true"></i
+            ></span>
+            <span class="title">About Me</span>
+          </a>
+        </li>
+
+        <li class="list">
+          <a href="#education">
+            <span class="icon"
+              ><i class="fa fa-graduation-cap" aria-hidden="true"></i
+            ></span>
+            <span class="title">Education</span>
+          </a>
+        </li>
+
+        <li class="list">
+          <a href="#experience">
+            <span class="icon"
+              ><i class="fa fa-briefcase" aria-hidden="true"></i
+            ></span>
+            <span class="title">Experience</span>
+          </a>
+        </li>
+
+        <li class="list">
+          <a href="#skills">
+            <span class="icon"
+              ><i class="fa fa-star" aria-hidden="true"></i
+            ></span>
+            <span class="title">Skills</span>
+          </a>
+        </li>
+
+        <li class="list">
+          <a href="#tech">
+            <span class="icon"
+              ><i class="fa fa-code" aria-hidden="true"></i
+            ></span>
+            <span class="title">Tech</span>
+          </a>
+        </li>
+
+        <li class="list">
+          <a href="#design">
+            <span class="icon"
+              ><i class="fa fa-paint-brush" aria-hidden="true"></i
+            ></span>
+            <span class="title">Design</span>
+          </a>
+        </li>
+
+        <li class="list">
+          <a href="#contact">
+            <span class="icon"
+              ><i class="fa fa-envelope" aria-hidden="true"></i
+            ></span>
+            <span class="title">Contact Me</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="toggle">
+      <i class="fa fa-bars open" aria-hidden="true"></i>
+      <i class="fa fa-times close" aria-hidden="true"></i>
+    </div>
+    <div>
+      <!-- home -->
+      <section class="section home" id="home">
+        <div class="section_container">
+          <div class="content">
+            <p class="subtitle">Hello</p>
+            <h1 class="intro">
+              I'm
+              <span
+                >Misbah <br />
+                a</span
+              >
+              Web Developer
+            </h1>
+            <p class="description">
+              A UGRAD Alumna and a multi-talented professional with a passion
+              for both software engineering and graphic design. I am a coder who
+              designs, bridging the gap between technical functionality and
+              creative design.
+            </p>
+
+            <span class="icons">
+              <a href="https://www.linkedin.com/in/misbahqureshie/">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://github.com/MisbahQureshi">
+                <i class="fab fa-github-square"></i>
+              </a>
+              <a href="https://www.behance.net/misbahqureshi2">
+                <i class="fab fa-behance-square"></i>
+              </a>
+            </span>
+
+            <div class="action_btns">
+              <a href="#about"><button class="AboutMe">About Me</button></a>
+              <a href="Resume.pdf" download
+                ><button class="DownloadResume">Download Resume</button></a
+              >
+            </div>
+          </div>
+
+          <div class="image">
+            <img src="images/Misbah.jpg" alt="profile" />
+          </div>
+        </div>
+      </section>
+
+      <!-- about -->
+      <section class="section about" id="about">
+        <h1 class="heading"><span>About</span> Me</h1>
+
+        <div class="section_container">
+          <div class="content">
+            <p class="description">
+              With a Bachelor's degree in Software Engineering and experience as
+              a Software Engineer, I bring technical expertise and a strong work
+              ethic to every project. In addition to my software engineering
+              skills, I am proficient in various programming languages. I also
+              have experience working with LaTeX, making me a versatile and
+              well-rounded software engineer. I am also skilled in graphic
+              design, with a focus on logos, social media posts, and animations.
+              I am proficient in Adobe Illustrator, Photoshop, After Effects,
+              and Filmora, allowing me to create visually stunning designs that
+              communicate a message effectively. As a UGRAD Alumna, I have
+              demonstrated my dedication to learning and improving my skills. I
+              am always looking for opportunities to expand my knowledge and
+              contribute to my team. I bring my unique blend of skills to every
+              project, ensuring that the end result is not only technically
+              sound, but also aesthetically pleasing.
+            </p>
+            <div class="action_btns">
+              <a href="Resume.pdf" download
+                ><button class="DownloadResume">
+                  Download Resume <i class="fas fa-download"></i></button
+              ></a>
+            </div>
+          </div>
+
+          <div class="counter">
+            <div class="box">
+              <span>2+</span>
+              <h3>years of work experience</h3>
+            </div>
+
+            <div class="box">
+              <span>UGRAD</span>
+              <h3>Alumna Spring 2022</h3>
+            </div>
+
+            <div class="box">
+              <span>Grapic</span>
+              <h3>Designer</h3>
+            </div>
+
+            <div class="box">
+              <span>Web</span>
+              <h3>Developer</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- education -->
+      <section class="section education" id="education">
+        <h1 class="heading">My <span>Education</span></h1>
+
+        <div class="section_container" style="display: block">
+          <div class="box-container">
+            <div class="box" style="margin-bottom: 10rem">
+              <i class="fas fa-graduation-cap"></i>
+              <span>Jan 2022 - May 2022</span>
+              <h3>University of Central Missouri, MO, Unites States</h3>
+              <p>Global UGRAD, Semester Exchange Program</p>
+              <p>
+                I secured highest gpa in the semester and made it to the Dean's
+                List.
+              </p>
+            </div>
+
+            <div class="box">
+              <i class="fas fa-graduation-cap"></i>
+              <span>Oct 2018 - Oct 2022 </span>
+              <h3>
+                Mehran University of Engineering and Technology, MUET, Jamshoro.
+              </h3>
+              <p>Bachelor of Software Engineering, Student</p>
+              <p>
+                I worked on "Image Search Engine" as a research-based Final Year
+                Project (FYP).
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- experience -->
+      <section class="section experience" id="experience">
+
+        <h1 class="heading"> My <span>Experience</span> </h1>
+        <div class="section_container" style="display: block">
+        <div class="box-container">
+
+            <div class="box" style="margin-bottom: 8rem;">
+                <i class="fas fa-briefcase"></i>
+                <span>Jan 2023- Sept 2023</span>
+                <h3>Impetus Systems Pvt Ltd</h3>
+                <p>Software Engineer 1</p>
+                <p>
+                    Worked on HR management software offering different modules that comprehensively cover all HR responsibilities, The system serves over 250 major clients nationwide
+                       
+                </p>
+               
+            </div>
+
+            <div class="box" style="margin-bottom: 8rem;">
+                <i class="fas fa-briefcase"></i>
+                <span>Sept 2020 - Oct 2020</span>
+                <h3>Times Group Private Limited</h3>
+                <p>Web Developer Intern</p>
+                <p>
+                    Worked as a Web-Developer Intern for a month to gain a basic understanding of professional web development and create web pages that are functional and visually aesthetic.
+                </p>
+            </div>
+            
+            <div class="box" style="margin-bottom: 8rem;">
+                <i class="fas fa-briefcase"></i>
+                <span>Dec 2020 - Jan 2022</span>
+                <h3>Software Engineering Society</h3>
+                <p>Head Director of Design</p>
+                <p>
+                   Led a team of designers and collaborate with software developers to create websites and marketing materials to get engagement. We hosted many seminars, workshops, webinars, and conferences related to Software Engineering. During my tenure, SES got the honor to organize The National Artificial Intelligence Conference 2021, where we managed over 500 people, and it was a huge success. 
+                </p>
+            </div>
+
+        </div>
+    </div>
+    </section>
+    <!-- skills -->
+    <section class="section skills" id="skills">
+
+        <h1 class="heading"> Technical <span>Skills</span></h1>
+
+        <div class="section_container" style="display: block">
+        <div class="box-container">
+
+            <div class="box one">
+                <p>
+                    <span id="title">Tools</span>
+                </p>
+
+                <ul>
+                    <li>Python</li>
+                    <li>mySQL</li>
+                    <li>VS code</li>
+                    <li>Jupyter</li>
+                    <li>Eclipse</li>
+                    <li>MS SQL server</li>
+                    <li>Git</li>
+                    <li>Visual Studio</li>
+                    <li>JIRA</li>
+                    <li>Toad</li>
+                    <li>Overleaf</li>
+                </ul>
+
+            </div>
+
+            <div class="box">
+                <p>
+                    <span id="title"> Languages and frameworks</span>
+                </p>
+
+                <ul>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>C#</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>Node.js</li>
+                    <li>HTML5</li>
+                    <li>CSS</li>
+                    <li>SQL</li>
+                    <li>LaTex</li>
+                    <li>AngularJS</li>
+                    
+                </ul>
+
+            </div>
+
+        </div>
+
+
+        <h1 class="heading">Design <span>Skills</span></h1>
+    
+        <div class="box-container">
+
+            <div class="box one">
+                <p>
+                    <span id="title">Tools</span>
+                </p>
+
+                <ul>
+                    <li>Adobe Illustrator</li>
+                    <li>Adobe Photoshop</li>
+                    <li>Adobe AfterEffects</li>
+                    <li>Adobe XD</li>
+                    <li>WoderShare Filmora</li>
+                    
+                </ul>
+
+            </div>
+
+            <div class="box">
+                <p>
+                    <span id="title"> Design Expertise</span>
+                </p>
+
+                <ul>
+                    <li>Typography</li>
+                    <li>Posters</li>
+                    <li>Banners</li>
+                    <li>Stationary Design</li>
+                    <li>Social Media Posts</li>
+                    <li>Logos</li>
+                    <li>Animations</li>
+                    
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+    </section>
+
+    <!-- portfolio -->
+    <section class="section tech" id="tech">
+
+        <h1 class="heading"> My <span>Projects</span> </h1>
+        <div class="section_container" style="display: block">
+        <div class="box-container">
+
+           
+            <div class="box">
+                <a href="https://github.com/MisbahQureshi/AamRush">
+                    <img src="./images/aamRush.png" alt="">
+                </a>
+                <div class="details">
+                    <h3>
+                      Aam Rush
+                    </h3>
+                    <p>
+                        <span>Dart</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="box">
+                <a href="https://github.com/MisbahQureshi/Coffee">
+                    <img src="./images/coffee.jpeg" alt="">
+                </a>
+                <div class="details">
+                    <h3>
+                      CoffeeDate
+                    </h3>
+                    <p>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="box">
+                <a href="https://github.com/MisbahQureshi/Image-Search-Engine-">
+                    <img src="./images/imageSearch.png" alt="">
+                </a>
+                <div class="details" >
+                    <h3>
+                       Image Search Engine
+                    </h3>
+                    <p>
+                        <span>Keras</span>
+                        <span>TensorFlow</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="box">
+                <a href="https://github.com/MisbahQureshi/WaterPotability">
+                    <img src="./images/waterQuality.jpeg" alt="">
+                </a>
+                <div class="details">
+                    <h3>
+                      WaterQuality
+                    </h3>
+                    <p>
+                        <span>Jupyter</span>
+                        
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="more action_btns">
+            <p> Veiw more projects </p>
+            <a href="https://github.com/MisbahQureshi"><button class="ViewMore">Github<i class="fab fa-github-square"
+                        style="font-size: 2rem;padding-left: 1rem;"></i></button></a>
+        </div>
+    </div>
+    </section>
+
+    <section class="section design" id="design">
+
+        <h1 class="heading"> My <span>Projects</span> </h1>
+        <div class="section_container" style="display: block">
+        <div class="box-container">
+
+            <div class="box">
+                <a href="https://www.behance.net/gallery/113423951/Software-Engineering-Society">
+                    <img src="./images/ses.png" alt="">
+                </a>
+                <div class="details">
+                    <h3>
+                      Software Engineering Society
+                    </h3>
+                    <p>
+                        <span>Logo</span>
+                        <span>Animations</span>
+                        <span>Social Media Posts</span>
+                        <span>Posters</span>
+                        <span>...</span>
+                    </p>
+                </div>
+            </div>
+           
+            <div class="box">
+                <a href="https://www.behance.net/gallery/147344195/Logo-Portfolio-2022-23">
+                    <img src="./images/logoPortfolio.png" alt="">
+                </a>
+                <div class="details">
+                    <h3>
+                      LogoPortfolio
+                    </h3>
+                    <p>
+                        <span>Logo</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="box">
+                <a href="https://www.behance.net/gallery/156614873/SES-Newsletter-2020-2021">
+                    <img src="./images/newsletter.png" alt="">
+                </a>
+                <div class="details">
+                    <h3>
+                      NewsLetter Design for Department
+                    </h3>
+                    <p>
+                        <span>Stationary Design</span>
+                        <span>Typography</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="box">
+                <a href="https://www.behance.net/gallery/113423057/ZiistCafe">
+                    <img src="./images/ziist.jpg" alt="">
+                </a>
+                <div class="details">
+                    <h3>
+                      Designs For ZiistCafe
+                    </h3>
+                    <p>
+                        <span>Animations</span>
+                        <span>Social Media Posts</span>
+                        <span>Posters</span>
+                        <span>...</span>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="more action_btns">
+            <p> Veiw more designs </p>
+            <a href="https://www.behance.net/misbahqureshi2"><button class="ViewMore">Behance<i class="fab fa-behance-square"
+                        style="font-size: 2rem;padding-left: 1rem;"></i></button></a>
+        </div>
+    </div>
+    </section>
+
+    <!-- contact -->
+    <section class="section contact" id="contact">
+
+        <h1 class="heading"> <span>Contact</span> Me </h1>
+        <div class="section_container" style="display: block;">
+            <div class="row">
+
+                <div class="contentx">
+    
+                    <h3 class="title">contact info</h3>
+    
+                    <div class="info">
+                        <h3> <i class="fas fa-envelope"></i>misbahqureshie@gmail.com </h3>
+                        <h3> <i class="fas fa-phone"></i> - </h3>
+                        <h3> <i class="fas fa-map-marker-alt"></i> Karachi, Pakistan </h3>
+                    </div>
+    
+                </div>
+    
+                <!-- <form action="" > -->
+                <form action="https://formspree.io/f/mjvnbnpg" method="POST">
+                    <input type="text" name="name" placeholder="name" class="box" required>
+                    <input type="email" name="email" placeholder="email" class="box" required>
+                    <textarea name="message" id="" cols="30" rows="10" class="box message" placeholder="message" required></textarea>
+                    <div class="action_btns">
+                    <button type="submit" class="submit" required> send <i class="fas fa-paper-plane"></i> </button></div>
+                </form>
+    
+            </div>
+    </div>
+
+    </section>
+
+    </div>
+
+    <a href="#home" class="top">
+      <img src="images/scroll-top-img.png" alt="">
+  </a>
+
+
+    <script>
+      mybutton = document.getElementById("myBtn");
+      window.onscroll = function () { scrollFunction() };
+
+      function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              mybutton.style.display = "block";
+          } else {
+              mybutton.style.display = "none";
+          }
+      }
+      function goUp() {
+          document.body.scrollTop = 0; // For Safari
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+  </script>
+
+    <script>
+      let menuToggle = document.querySelector(".toggle");
+      let navigation = document.querySelector(".navigation");
+      menuToggle.onclick = function () {
+        menuToggle.classList.toggle("active");
+        navigation.classList.toggle("active");
+      };
+
+      //add active class to selected list item
+      let list = document.querySelectorAll(".list");
+      for (let i = 0; i < list.length; i++) {
+        list[i].onclick = function () {
+          let j = 0;
+          while (j < list.length) {
+            list[j++].className = "list";
+          }
+
+          list[i].className = "list active";
+        };
+      }
+    </script>
+  </body>
+</html>
