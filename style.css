@@ -48,6 +48,7 @@ body{
     background: var(--primary-color);
     transition: width 0.5s;
     overflow-x: hidden;
+    z-index: 9999;
 }
 
 .navigation.active{
@@ -417,8 +418,8 @@ p a, #title{
 
 .tech .box-container{
     display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     padding:2rem 0;
 }
@@ -493,8 +494,8 @@ p a, #title{
 
 .design .box-container{
     display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     padding:2rem 0;
 }
@@ -630,9 +631,13 @@ p a, #title{
         margin: auto;
     }
 
-    .navigation.active {
-        width: 100%;
+    .navigation{
+        display: none;
     }
 
+    .navigation.active {
+        display: block;
+    }
+    
 }
 
