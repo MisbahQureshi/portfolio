@@ -238,6 +238,7 @@ body{
 
 .DownloadResume{
     background-color: var(--extra-light);
+    color: var(--text-dark);
 }
 
 .DownloadResume:hover{
@@ -639,7 +640,7 @@ p a, #title{
     }
 
     html{
-        font-size: 50%;
+        font-size: 70%;
     }
     
 }
