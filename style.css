@@ -296,7 +296,7 @@ body{
 .education .box-container{
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
   
 }
@@ -345,7 +345,7 @@ body{
 .experience .box-container{
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 
 }
@@ -522,13 +522,12 @@ p a, #title{
 
 .contact .row{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 .contact .row .contentx{
-    flex:1 1 30rem;
     padding:rem;
     padding-bottom: 0;
 }
@@ -610,7 +609,7 @@ p a, #title{
 
 #myBtn:hover {
     background-color: var(--primary-color-dark);
-    color: var(--blue)
+    color: var(--extra-light)
 }
 
 
@@ -637,6 +636,10 @@ p a, #title{
 
     .navigation.active {
         display: block;
+    }
+
+    html{
+        font-size: 50%;
     }
     
 }
