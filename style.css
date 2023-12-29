@@ -308,6 +308,7 @@ body{
     padding-left: 4rem;
     border-left: .2rem solid var(--text-dark);
     position: relative;
+    text-align: left;
 }
 
 .education .box-container .box span{
@@ -357,6 +358,7 @@ body{
     padding-left: 4rem;
     border-left: .2rem solid var(--text-dark);
     position: relative;
+    text-align: left;
 }
 
 .experience .box-container .box span{
@@ -415,6 +417,7 @@ p a, #title{
     flex-wrap: wrap;
     justify-content:space-around;
     padding: 3rem 0rem;
+    text-align: left;
 }
 
 .tech .box-container{
