@@ -489,6 +489,11 @@ p a, #title{
     font-size: 1.5rem;
 }
 
+.details a{
+    color: var(--primary-color);
+    font-size: 1rem;
+}
+
 .details span{
     border-radius: 1rem;
     background-color:var(--primary-color-dark);
