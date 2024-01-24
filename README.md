@@ -1,3 +1,3 @@
-misbahqureshi.github.io
+https://misbahqureshi.github.io/
 
 portfolio website
